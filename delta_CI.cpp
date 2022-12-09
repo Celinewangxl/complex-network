@@ -264,7 +264,7 @@ int main()
     double beta; //the probability that an infectious node will infect its susceptible neighbor
     int tar_cluster_num = 1; //number of clusters of target nodes
     
-	//create an ER network
+    //create an ER network
     int N = 10000; //size of network
     double mean_deg=4.0; //mean degree
     double p = mean_deg/(N-1);
